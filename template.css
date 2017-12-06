@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    width: 1170px;
+}
+
+.main-page #page {
+    background-image: url(img/t_kerner_back.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    min-width: 1170px;
+}
+
+.main-page a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    padding: 10px 0px;
+    border-bottom: 1px solid #2f3333;
+    height: 7%;
+}
+
+header .menu_item {
+    font-size: 14px;
+    line-height: 36px;
+}
+
+header .menu_item {
+    margin-right: 20px;
+}
+
+header .flex-block {
+  display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+
+.log_in a:last-child {
+    margin-left: 20px;
+}
+
+.log_in .icon_user {
+    content: '';
+    display: inline-block;
+    background-image: url(./img/user.svg);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 14px;
+    height: 18px;
+    margin-right: 10px;
+    font-size: 0px;
+}
+
+.wrapper {
+    height: 93%;
+}
+
+.wrapper > .container {
+    height: 93%;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.promo-top {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    margin-top: 55px;
+    position: relative;
+}
+
+.promo-top .logo img {
+    width: 180px;
+    height: 55px;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.promo-top p {
+    color: #636566;
+}
+
+.promo-top .numb_phone {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.promo-top .callback-btn {
+    background-color: #009bc9;
+    padding: 7px 17px;
+    min-height: 30px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.promo-top form .inp {
+    height: 35px;
+    width: 255px;
+    padding-left: 37px;
+    color: #fff;
+    outline: none;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.promo-top form .icon-zoom {
+    background-repeat: no-repeat;
+    background-image: url(img/zoom.svg);
+    background-size: 1em 1em;
+    background-origin: padding-box;
+    background-position: left 10px center;
+}
+
+.promo-top__box img,
+.promo-top__box p,
+.promo-top__box a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.promo-center {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+            justify-content: flex-start;
+    position: relative;
+}
+
+.promo-center h1 {
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.promo-center h1:before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-image: url(img/arrow.svg);
+    right: 0;
+    top: 50%;
+
+}
+
+.promo-center .center_btn {
+    border: 1px solid #eee;
+    min-height: 48px;
+    width: 235px;
+    display: block;
+    margin: 30px 0px 0px;
+    padding: 14px 15px 14px 55px;
+    font-size: 18px;
+    line-height: 18px;
+    position: relative;
+}
+
+.promo-center .center_btn:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/hamburger.svg);
+    background-repeat: no-repeat;
+    left: 20px;
+    top: 15px;
+}
+
+.promo-bottom {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.promo-bottom .promo-bottom_item {
+    width: 33.33%;
+    position: relative;
+}
+
+.promo-bottom_icon,
+.promo-bottom_text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.promo-bottom_icon {
+    margin-right: 19px;
+}
+
+.promo-bottom_text {
+    width: 80%;
+}
+
+.promo-bottom_text span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.promo-bottom_text p {
+    color: #636566;
+    margin-top: 18px;
+}
+
+.promo-bottom_icon .icon-1:before {
+    content: '';
+    display: inline-block;
+    background-image: url(img/icon_btm_1.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.promo-bottom_icon .icon-2:before {
+    content: '';
+    display: inline-block;
+    background-image: url(img/icon_btm_2.svg);
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 50px;
+}
+
+.promo-bottom_icon .icon-3:before {
+    content: '';
+    display: inline-block;
+    background-image: url(img/icon_btm_3.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+
+/*hover*/
+
+header .menu_item:hover {
+    color: #009bc9;
+    transition: 0.7s;
+}
+
+.log_in a:hover {
+    color: #009bc9;
+    transition: 0.7s;
+}
+
+.promo-center .center_btn:hover {
+    background-color: #009bc9;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.promo-top .callback-btn:hover {
+    opacity: .9;
+}
